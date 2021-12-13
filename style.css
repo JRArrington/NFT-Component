@@ -1,7 +1,60 @@
 @import url('https://fonts.google.com/specimen/Outfit');
 
+* {
+  font-family: Outfit;
+  border: 1px solid red;
+  padding: 0;
+}
+
+h1 {
+  color: #fff;
+  font-weight: 600;
+}
+
+.container {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 50px;
+  margin: 50px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.container .top img {
+  border-radius: 50px;
+}
+
 .wrapper {
-  background-color: blue;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  margin: 50px 600px;
+}
+
+h4 {
+  color: hsl(178, 100%, 50%);
+}
+
+h5, p {
+  color: #808080;
+}
+
+.center-bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.eth {
+  display: flex;
+}
+
+.time {
+  display: flex;
+}
+
+.bottom {
   display: flex;
   justify-content: center;
 }
